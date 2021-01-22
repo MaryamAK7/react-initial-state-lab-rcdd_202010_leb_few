@@ -9,11 +9,13 @@ export default class Bomb extends Component {
     }
   }
   render() {
+   
     let message="";
+    if(this.state.secondsLeft===0){
+      message=
+    }
     return(
-      if(this.state.secondsLeft=== 0){
-        <div> </div>
-      }
+      
       <div> </div>)
   }
   
