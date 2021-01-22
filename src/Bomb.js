@@ -19,7 +19,7 @@ export default class Bomb extends Component {
     }
     return(
       
-      <div> </div>)
+      <div>{message} </div>)
   }
   
 }
