@@ -10,6 +10,7 @@ export default class Bomb extends Component {
   }
   render() {
     return(
+      if()
       <div> </div>)
   }
   
