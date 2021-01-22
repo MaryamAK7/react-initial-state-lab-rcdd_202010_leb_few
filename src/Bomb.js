@@ -12,7 +12,10 @@ export default class Bomb extends Component {
    
     let message="";
     if(this.state.secondsLeft===0){
-      message=
+      message="Boom!"
+    }
+    else {
+      message=`${this.state.secondsLeft} seconds left before I go boom!`;
     }
     return(
       
